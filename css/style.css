@@ -18,12 +18,20 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
-	margin: 0px 0px 10px;
+	margin: 0px 0px 0px;
 	color: #272727;
 	font-family: "Open Sans", sans-serif;
 	text-transform: uppercase;
 }
+h1{
+	font-weight: 700;
+	font-size: 50px;
+	margin: 0px 0px 10px;
+	color: #FFFFFF;
+	font-family: "Open Sans", sans-serif;
+	text-transform: uppercase;
 
+}
 h4 {
 	font-size: 16px;
 	font-family: "Raleway", sans-serif;
@@ -2029,35 +2037,35 @@ ul.timeline {
 /*-----------------------------------------------------------------*/
 
 
-#testimonials {
+#comments {
 	background:url(../images/parallax/testimonials.jpg) no-repeat;
 }
 
-#testimonials {
+#comments {
 	color:#fff;
 	position:relative;
 	padding:100px 0px;
 }
 
-#testimonials .container {
+#comments .container {
 	position:relative;
 }
 
-#testimonials .items {
+#comments .items {
 	margin-bottom: 30px;
 	margin-top:-7px;
 	color:#fff;
 	text-align:center;
 }
 
-#testimonials .testimonial-pic {
+#comments .testimonial-pic {
 	margin: 10px 0px;
 	width: 120px;
 	height: 120px;
 	border-radius: 50%;
 }
 
-#testimonials .desc {
+#comments .desc {
 	font-size:19px;
 	line-height: 36px;
 	margin-bottom: 30px;
@@ -2065,14 +2073,14 @@ ul.timeline {
 	font-family: "Roboto";
 }
 
-#testimonials .name {
+#comments .name {
 	color:#FFF;
 	font-weight: 600;
 	margin-top:20px;
 	font-size: 18px;
 }
 
-#testimonials .owl-controls .owl-page span {
+#comments .owl-controls .owl-page span {
 	background:none;
 	display: block;
 	margin: 5px 4px;
@@ -2083,7 +2091,7 @@ ul.timeline {
 	border:2px solid #ccc;
 }
 
-#testimonials .owl-controls .owl-page.active span {
+#comments .owl-controls .owl-page.active span {
 	background:#7EC13F;
 	border-color:#7EC13F;
 }
