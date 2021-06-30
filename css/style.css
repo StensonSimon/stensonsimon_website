@@ -290,13 +290,13 @@ section {
 }
 .btn-red:hover, .btn-red:focus {
 	background:#FFF;
-	border-color: FFFF;
+	border-color: #FFF;
 	color:#000;
 }
 
 .btn-white {
 	background:#FFF;
-	border-color: FFFF;
+	border-color: #FFF;
 	color:#5F5A5A;
 }
 
@@ -717,14 +717,11 @@ section {
 	padding-right: 0;
 }
 
-.logo {
-	width: 100% !important;
-	height: 100% !important;
-}
 
 .logo-nav {
 	float: left;
 	line-height: 60px;
+
 }
 
 
@@ -1767,8 +1764,10 @@ ul.timeline {
 	z-index: 2;
 	font-weight: 800;
 	font-size: 40px;
-	line-height: 46px;
 	color:#FFF;
+	position: absolute;
+	top: -25px;
+	left: 25px;
 }
 
 .percent:after {
