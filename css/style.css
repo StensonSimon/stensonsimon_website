@@ -2796,7 +2796,7 @@ li.comment ol.comment-sub {
 /*-----------------------------------------------------------------*/
 
 #contact {
-	background:#EBECF0 no-repeat;
+	background:#3778C2 no-repeat;
 }
 
 .contact-form {
@@ -2813,7 +2813,7 @@ li.comment ol.comment-sub {
     font-size: 17px;
     line-height: 13px;
     margin-bottom: 16px;
-    color: #000;
+    color: #FFF;
 }
 
 footer {
