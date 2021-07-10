@@ -243,7 +243,6 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 }
 
 .overlay {
-	background:rgba(0, 0, 0, 0.4) url("../images/pattern.png") repeat;
 	position: absolute;
 	display: block;
 	width: 100%;
@@ -879,7 +878,6 @@ section {
 }
 
 .slider-overlay {
-	background:url("../images/pattern.png") repeat rgba(0, 0, 0, .4);
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -2798,12 +2796,13 @@ li.comment ol.comment-sub {
 /*-----------------------------------------------------------------*/
 
 #contact {
-	background:url(../images/parallax/contact.jpg) no-repeat;
+	background:#EBECF0 no-repeat;
 }
 
 .contact-form {
 	display: block;
 	padding: 0px 0px 30px 0px;
+
 }
 
 .contact-info {
@@ -2814,7 +2813,7 @@ li.comment ol.comment-sub {
     font-size: 17px;
     line-height: 13px;
     margin-bottom: 16px;
-    color: #FFF;
+    color: #000;
 }
 
 footer {
