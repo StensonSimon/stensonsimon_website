@@ -23,14 +23,9 @@
     <link rel="stylesheet" href="css/etlinefont.css">
     <link href="css/style.css" type="text/css"  rel="stylesheet"/>
 
+  </head>
 
-   <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
-        <!--[if lt IE 9]>
-        <script src="js/html5shiv.js"></script>
-        <script src="js/respond.min.js"></script>
-        <![endif]-->
-    
-    <body  data-spy="scroll" data-target="#main-menu">
+ <body  data-spy="scroll" data-target="#main-menu">
  
 
   <!--Start Page loader -->
@@ -729,11 +724,36 @@
      <div class="overlay"></div>
         <div class="container">
               <div class="row">
-                  <div style="float: right">
-                      <button class="gradient-button">
-                          <span class="fa fa-pencil"></span>
-                          <span>Write a review</span>
-                      </button>
+                  <div>
+                      <div style="float: right">
+                          <button class="gradient-button" onclick="togglePopup()">
+                              <span class="fa fa-pencil"></span>
+                              <span>Write a review</span>
+                          </button>
+                      </div>
+                      <div class="popup" id="review-popup">
+                          <div class="overlay"></div>
+                          <div class="content" id="review_form">
+                              <form method="post">
+                                  <div class="close-btn fa fa-times" onclick="togglePopup()"></div>
+                                  <h3>Review Form</h3>
+                                  <div class="row">
+                                      <div class="col-md-6">
+                                          <input class="form-control" id="fname" placeholder="Full Name" type="text" required>
+                                      </div>
+                                      <div class="col-md-6">
+                                          <input class="form-control" id="email_id" placeholder="Your Email" type="email" required>
+                                      </div>
+                                      <div class="col-md-12">
+                                          <textarea class="form-control" id="review_desc" rows="7" placeholder="Write your review here..." required></textarea>
+                                      </div>
+                                      <div class="col-md-12 text-right">
+                                          <button type="submit" class="gradient-button">Submit Review</button>
+                                      </div>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
                   </div>
                   <div class="title-box text-center white col-md-10 col-md-offset-1">
                       <h2 class="title">What my reviewers say </h2>
@@ -854,6 +874,7 @@
     <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
     <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/popup.js"></script>
     
  </body>
 </html>
