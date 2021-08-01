@@ -18,7 +18,7 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
-	margin: 0px 0px 0px;
+	margin:0 0 0;
 	color: #272727;
 	font-family: "Open Sans", sans-serif;
 	text-transform: uppercase;
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 h1{
 	font-weight: 700;
 	font-size: 50px;
-	margin: 0px 0px 10px;
+	margin:0 0 10px;
 	color: #FFFFFF;
 	font-family: "Open Sans", sans-serif;
 	text-transform: uppercase;
@@ -88,9 +88,9 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	width: 100%;
 	vertical-align: middle;
 	box-shadow: none;
-	border-radius: 0px;
+	border-radius:0;
 	transition: all 200ms ease-in 0s;
-	background: rgba(255, 255, 255, 0) none repeat scroll 0% 0%;
+	background: rgba(255, 255, 255, 0) none repeat scroll 0 0;
 	border: 2px solid rgba(236, 240, 241, 0.58);
 }
 
@@ -165,7 +165,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 }
 
 .title-box {
-	border-bottom-width: 0px;
+	border-bottom-width:0;
 	margin-bottom: 75px;
 	position: relative;
 }
@@ -247,8 +247,8 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	display: block;
 	width: 100%;
 	height: 100%;
-	top: 0px;
-	left: 0px;
+	top:0;
+	left:0;
 }
 
 section {
@@ -408,7 +408,7 @@ section {
 }
 
 .no-margin-bottom {
-	margin-bottom: 0px !important;
+	margin-bottom:0 !important;
 }
 
 .margin-bottom-5 {
@@ -736,10 +736,10 @@ section {
 	color: #FFF;
 	margin-top: 4px;
 	font-size: 32px;
-	margin-bottom: 0px;
+	margin-bottom:0;
 	padding-top: 9px;
 	position: absolute;
-	right: 0px;
+	right:0;
 	padding-right: 0;
 }
 
@@ -783,7 +783,7 @@ section {
     font-size: 20px;
     font-weight: 200;
     color: #FFF;
-    margin: 30px 0px 0px;
+    margin: 30px 0 0;
     text-transform: uppercase;
 	font-weight: 600;
 }
@@ -886,7 +886,7 @@ section {
 	color: #333;
 	font-size: 40px;
 	height: 40px;
-	right: 0px;
+	right: 0;
 	margin-top: -20px;
 	position: absolute;
 	top: 50%;
@@ -1029,7 +1029,7 @@ html[xmlns] .slides {
 
 #facts {
 	background:url(../images/parallax/facts.jpg) no-repeat;
-	padding: 150px 0px 100px;
+	padding: 150px 0 100px;
 }
 
 .facts-box {
@@ -1071,7 +1071,7 @@ html[xmlns] .slides {
 	display: inline-block;
 	border: 2px solid #B1AEAE;
 	padding: 3px 20px;
-	box-shadow: 0px 0px 2px #F2F2F2;
+	box-shadow: 0 0 2px #F2F2F2;
 	margin-bottom: 5px;
 }
 
@@ -1091,7 +1091,7 @@ html[xmlns] .slides {
 	display: block;
 	color: #4D3F3F;
 	font-size: 16px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .content-tab-1 > .nav > li.active > a > h4, .content-tab-1 > .nav > li.active > a > i {
@@ -1104,7 +1104,7 @@ html[xmlns] .slides {
 }
 
 .tab-content-main {
-	padding: 70px 0px 0px;
+	padding: 70px 0 0;
 }
 
 .tab-content-main img {
@@ -1292,24 +1292,24 @@ html[xmlns] .slides {
 }
 
 .core-features .list {
-	margin: 0px;
-	padding: 0px 0px 0px 7px;
+	margin: 0;
+	padding: 0 0 0 7px;
 }
 
 .core-features .list li {
     font-size: 15px;
-    margin: 0px 0px 12px;
+    margin: 0 0 12px;
     font-weight: 600;
     line-height: 20px;
     position: relative;
-    padding: 0px 0px 0px 25px;
+    padding: 0 0 0 25px;
     list-style: outside none none;
 	color: #6E6D6D;
 }
 
  .core-features .list li::after {
- top: 0px;
- left: 0px;
+ top: 0;
+ left: 0;
  content: "\f058";
  position: absolute;
  font-family: "FontAwesome";
@@ -1456,11 +1456,11 @@ ul.timeline {
 	background: #FFF;
 	color: #868586;
 	font-size: 24px;
-	bottom: 0px;
+	bottom: 0;
 	left: 50%;
 	margin-left: -32px;
 	text-align: center;
-	padding: 19px 0px;
+	padding: 19px 0;
 	clear: both;
 	position: absolute;
 	width: 64px;
@@ -1474,7 +1474,7 @@ ul.timeline {
 
 #works {
     position: relative;
-    padding-bottom: 0px;
+    padding-bottom: 0;
     line-height: 0;
 }
 
@@ -1486,8 +1486,8 @@ ul.timeline {
 .filtering {
 	display: inline-block;
 	text-align: center;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 .filter {
@@ -1556,14 +1556,14 @@ ul.timeline {
 .work-grid .work-item .work-caption h4 {
     font-size: 16px;
     color: #FFF;
-    margin: 30px 0px 0px 30px;
+    margin: 30px 0 0 30px;
     letter-spacing: 1px;
 }
 
 .work-grid .work-item .work-caption p {
     font-size: 17px;
     color: #FFF;
-    margin: 2px 0px 0px 30px;
+    margin: 2px 0 0 30px;
     letter-spacing: 1px;
 }
 
@@ -1585,7 +1585,7 @@ ul.timeline {
 	color: #444;
 	width:50px;
 	height:50px;
-	margin: 0px;
+	margin: 0;
 	border-radius: 100%;
 	cursor:pointer;
 	z-index:200;
@@ -1614,7 +1614,7 @@ ul.timeline {
 
 #cta {
 	background:url(../images/parallax/cta.jpg) no-repeat;
-	padding:130px 0px 130px;
+	padding:130px 0 130px;
 }
 
 #cta h2 {
@@ -1622,7 +1622,7 @@ ul.timeline {
     font-size: 33px;
     margin-bottom: 36px;
     font-weight: 600;
-    text-shadow: 0px 0px 2px #1B1A1A;
+    text-shadow: 0 0 2px #1B1A1A;
 }
 
 #cta .btn-white {
@@ -1636,7 +1636,7 @@ ul.timeline {
 
 
 #team {
-	padding:100px 0px 130px;
+	padding:100px 0 130px;
 	background: #FFF;
 }
 
@@ -1759,7 +1759,7 @@ ul.timeline {
 
 #skills {
 	text-align:center;
-	padding:100px 0px 0px;
+	padding:100px 0 0;
 	background:url(../images/parallax/skills.jpg) no-repeat;
 }
 
@@ -2443,7 +2443,7 @@ ul.timeline {
 	width: 100%;
 	height: 100%;
 	left: 0px;
-	top: 0px;
+	top: 0;
 	opacity:0;
 	text-align: center;
 	background:rgba(0, 0, 0, 0.5);
@@ -2466,7 +2466,7 @@ ul.timeline {
 }
 
 .post-meta {
-	margin: 10px 0px 20px;
+	margin: 10px 0 20px;
 	line-height: 20px;
 	color: #999;
 }
@@ -2580,7 +2580,7 @@ blockquote em {
 
 .comment-list ol {
 	list-style: none;
-	margin-left: 0px;
+	margin-left:0;
 	padding: 0;
 }
 
@@ -2596,7 +2596,7 @@ li.comment .single_comment {
 	padding: 20px;
 	background: #FFF none repeat scroll 0% 0%;
 	margin-bottom: 20px;
-	box-shadow: 0px 0px 2px #ccc;
+	box-shadow:0 0 2px #ccc;
 }
 
 li.comment ol.comment-sub {
@@ -2756,7 +2756,7 @@ li.comment ol.comment-sub {
 	padding: 10px 7px;
 	font-size: 13px;
 	color: #504C4C;
-	margin: 0px 6px 6px 0px;
+	margin:0 6px 6px 0;
 	background: transparent;
 	font-weight: 600;
 	border: 1px solid #ccc;
@@ -2822,12 +2822,12 @@ li.comment ol.comment-sub {
 /*-----------------------------------------------------------------*/
 
 #contact {
-	background:#3778C2 no-repeat;
+	background:#00d2ff no-repeat;
 }
 
 .contact-form {
 	display: block;
-	padding: 0px 0px 30px 0px;
+	padding:0 0 30px 0;
 
 }
 
@@ -2843,7 +2843,7 @@ li.comment ol.comment-sub {
 }
 
 footer {
-	padding: 17px 0px 10px;
+	padding: 17px 0 10px;
 	background: #1C1C1C;
 }
 
