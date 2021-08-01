@@ -95,10 +95,12 @@
                             <div class="container">
                                 <div class="big" style="text-transform: initial" >Hey I'm </div>
                                 <div class="big" >Stenson Simon</div>
-                                <a href="#works" class="middle btn btn-white">VIEW PORTFOLIO</a>
+                                <button class="btn" style="background-color: transparent">
+                                <a href="#works" style="color: #FFFFFF">VIEW PORTFOLIO</a>
+                                </button>
                             </div>       
                         </div>
-                        <img src="images/slider/profile1.jpeg" alt="">
+                        <img class="img-responsive" src="images/slider/profile1.jpeg" alt="">
                     </li>
                     
                     <li class="secondary">
@@ -106,7 +108,9 @@
                             <div class="container">                       
                                 <div class="big">Welcome to my site </div>
                                 <div class="small">Are you ready to explore</div>
-                                <a href="#works" class=" middle btn btn-white">VIEW PORTFOLIO</a>
+                                <button class="btn" style="background-color: transparent">
+                                    <a href="#works" style="color: #FFFFFF">VIEW PORTFOLIO</a>
+                                </button>
                             </div>
                          </div>
                         <img src="images/slider/profile1.jpeg" alt="">
@@ -725,12 +729,16 @@
      <div class="overlay"></div>
         <div class="container">
               <div class="row">
-              
-                  	<div class="title-box text-center white">
-                        <h2 class="title">What my reviewers say </h2>
-                     </div>
+                  <div style="float: right">
+                      <button class="gradient-button">
+                          <span class="fa fa-pencil"></span>
+                          <span>Write a review</span>
+                      </button>
+                  </div>
+                  <div class="title-box text-center white col-md-10 col-md-offset-1">
+                      <h2 class="title">What my reviewers say </h2>
+                  </div>
 
-              
                     <div class="col-md-10 col-md-offset-1">
                         <div class="testimonials-carousel">
                             <!--Start Testimonial item #1-->
@@ -782,7 +790,7 @@
                      <form method="post">
                         <div class="row">
                             <div class="col-md-4">
-                                <input class="form-control" id="name" placeholder="Full Name" type="text">
+                                <input class="form-control" id="name" placeholder="Full Name" type="text" required>
                             </div>
                             <div class="col-md-4">
                                 <input class="form-control" id="email" placeholder="Your Email" type="email" required>
@@ -791,10 +799,10 @@
                                 <input class="form-control" id="subject" placeholder="Subject" type="text">
                             </div>
                             <div class="col-md-12">
-                                <textarea class="form-control" id="message" rows="7" placeholder="Your Message"></textarea>
+                                <textarea class="form-control" id="message" rows="7" placeholder="Your Message" required></textarea>
                             </div>
                             <div class="col-md-12 text-right">
-                                <button type="submit" class="btn btn-green">SEND MESSAGE</button>
+                                <button type="submit" class="gradient-button">SEND MESSAGE</button>
                             </div>
                         </div>
                     </form>

@@ -276,10 +276,11 @@ section {
     font-weight: 600;
     padding: 6px 23px;
     font-size: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 2px solid transparent;
-    color: #262B37;
     transition: all 200ms ease 0s;
+	color: #FFFFFF;
+	background-color: #d58512;
 }
 
 .btn-red {
@@ -336,6 +337,32 @@ section {
 	border-color:#7EC13F;
 }
 
+.gradient-button {
+	margin: 10px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 15px;
+	padding: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	background-size: 200% auto;
+	color: #FFF;
+	width: 200px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 15px;
+	background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)
+
+}
+
+.gradient-button:hover{
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	margin: 8px 10px 12px;
+	color: #0b0b0b;
+	background-position: right center;
+}
+
 /*-----------------------------------------------------------------*/
 /* spacing & margin
 /*-----------------------------------------------------------------*/
@@ -381,7 +408,7 @@ section {
 }
 
 .no-margin-bottom {
-	margin-bottom: opx !important;
+	margin-bottom: 0px !important;
 }
 
 .margin-bottom-5 {
@@ -2381,7 +2408,6 @@ ul.timeline {
 }
 
 #related-project {
-	background:url('../images/pattern.png') repeat;
 	padding:100px 0 80px;
 	position:relative;
 }
