@@ -192,7 +192,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 }
 
 .title-box.white h2.title:before {
-	background:#FFF;
+	background:#269abc;
 }
 
 .title-box.white h2.title {
@@ -1313,7 +1313,6 @@ html[xmlns] .slides {
  left: 0;
  content: "\f058";
  position: absolute;
- font-family: "FontAwesome";
 }
 
 
@@ -1922,8 +1921,8 @@ ul.timeline {
 	background: rgba(243, 243, 243, 0.59);
 	border: 1px solid #F0EDED;
 	margin-bottom: 20px;
-	border-radius: 0px;
-	box-shadow: 0px 1px 0px #CCC;
+	border-radius: 0;
+	box-shadow: 0 1px 0 #CCC;
 }
 
 .panel-group .panel-body {
@@ -1986,7 +1985,6 @@ ul.timeline {
 	border: 1px solid #FFF;
 	-webkit-transition: all 0.7s ease-in-out;
 	-moz-transition: all 0.7s ease-in-out;
-	-ms-transition: all 0.7s ease-in-out;
 	-o-transition: all 0.7s ease-in-out;
 	transition: all 0.7s ease-in-out;
 }
@@ -2015,11 +2013,11 @@ ul.timeline {
 /*-----------------------------------------------------------------*/
 
 .blog-post {
-	padding: 0px;
+	padding: 0;
 	background: #FEFDFD;
 	border: 1px solid #F6F3F3;
 	margin-bottom: 30px;
-	box-shadow: 0px 0px 2px 1px rgba(216, 213, 213, 0.14);
+	box-shadow: 0 0 2px 1px rgba(216, 213, 213, 0.14);
 }
 
 .post-desc {
@@ -2036,7 +2034,7 @@ ul.timeline {
     color: #585957;
     font-size: 13px;
     font-weight: 700;
-    text-shadow: 0px 0px 1px #E0D6D6;
+    text-shadow: 0 0 1px #E0D6D6;
     font-style: italic;
 }
 
@@ -2067,7 +2065,7 @@ ul.timeline {
 #comments {
 	color:#fff;
 	position:relative;
-	padding:100px 0px;
+	padding:100px 0;
 }
 
 #comments .container {
@@ -2082,7 +2080,7 @@ ul.timeline {
 }
 
 #comments .testimonial-pic {
-	margin: 10px 0px;
+	margin: 10px 0;
 	width: 120px;
 	height: 120px;
 	border-radius: 50%;
@@ -2093,7 +2091,6 @@ ul.timeline {
 	line-height: 36px;
 	margin-bottom: 30px;
 	font-style: italic;
-	font-family: "Roboto";
 }
 
 #comments .name {
@@ -2140,7 +2137,7 @@ ul.timeline {
 	background:#FFF;
 	width:95%;
 	max-width:500px;
-	height:450px;
+	height:400px;
 	z-index:2;
 	text-align:center;
 	padding:20px;
@@ -2244,13 +2241,13 @@ ul.timeline {
 #featured-works .item .featured-caption h4 {
 	font-size:15px;
 	color:#FFF;
-	margin: 30px 0px 0px 30px;
+	margin: 30px 0 0 30px;
 }
 
 #featured-works .item .featured-caption p {
 	font-size: 14px;
 	color: #FFF;
-	margin: 5px 0px 0px 30px;
+	margin: 5px 0 0 30px;
 	text-transform: uppercase;
 }
 
@@ -2272,7 +2269,7 @@ ul.timeline {
 	color: #444;
 	width: 50px;
 	height: 50px;
-	margin: 0px;
+	margin: 0;
 	border-radius: 100%;
 }
 
@@ -2318,19 +2315,19 @@ ul.timeline {
 
 #page-header {
 	background:url('../images/page-header.jpg');
-	padding: 130px 0px 80px;
+	padding: 130px 0 80px;
 	text-align: center;
 }
 
 #page-header:after {
 	background:rgba(0, 0, 0, .5);
 	position:absolute;
-	left:0px;
-	right:0px;
+	left:0;
+	right:0;
 }
 
 #page-header h1 {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	color: #FFF;
 	font-weight: 600;
 }
@@ -2348,7 +2345,7 @@ ul.timeline {
 
 .breadcrumb ul li {
 	display: inline-block;
-	padding: 0px 5px;
+	padding: 0 5px;
 }
 
  .breadcrumb ul li::after {
@@ -2402,7 +2399,7 @@ ul.timeline {
 }
 
 .work-detail-list li {
-	padding: 0px 0px 7px;
+	padding: 0 0 7px;
 	line-height: 22px;
 	font-size: 16px;
 	border-bottom: 1px dashed #ccc;
@@ -2494,7 +2491,7 @@ ul.timeline {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	left: 0px;
+	left: 0;
 	top: 0;
 	opacity:0;
 	text-align: center;
@@ -2553,7 +2550,7 @@ ul.timeline {
 blockquote {
 	display: block;
 	padding: 20px;
-	background: rgba(245, 245, 245, 0.46) none repeat scroll 0% 0%;
+	background: rgba(245, 245, 245, 0.46) none repeat scroll 0 0;
 	margin: 25px 15px;
 	font-size: 15px;
 	line-height: 21px;
@@ -2783,7 +2780,7 @@ li.comment ol.comment-sub {
 .sidebar-widget img {
 	float: left;
 	width: 96px;
-	margin: 6px 14px 22px 0px;
+	margin: 6px 14px 22px 0;
 }
 
 .sidebar-widget p.date {
@@ -2869,14 +2866,29 @@ li.comment ol.comment-sub {
 	color: #F0353A;
 }
 
+#review_form{
+	overflow: auto;
+}
+
 #review_form input, #review_form textarea{
-	border: 2px solid rgba(0, 0, 0, 0.9);
-	border-color:#000!important;
+	border-color:#269abc!important;
+	resize: none;
+}
+
+#review_form button{
+    color: #269abc;
+    background: transparent;
+	border: none;
+    
+}
+#review_form h3{
+	text-transform: uppercase;
+	color: #269abc;
 }
 
 #review_form ::-webkit-input-placeholder {
-	color:#5C5C5C !important;
-	font-weight: 600;
+	color:#000000 !important;
+	font-weight: 500;
 	letter-spacing:1px;
 }
 
@@ -2903,7 +2915,16 @@ li.comment ol.comment-sub {
 /*-----------------------------------------------------------------*/
 
 #contact {
-	background:#00d2ff no-repeat;
+	background:#FFFFFF no-repeat;
+}
+
+#contact input, #contact textarea{
+	border-color:#269abc!important;
+	resize: none;
+}
+
+#contact h2 {
+	color: #269abc;
 }
 
 .contact-form {
@@ -2920,8 +2941,33 @@ li.comment ol.comment-sub {
     font-size: 17px;
     line-height: 13px;
     margin-bottom: 16px;
-    color: #FFF;
+    color: #269abc;
 }
+
+#contact ::-webkit-input-placeholder {
+	color:#000000 !important;
+	font-weight: 500;
+	letter-spacing:1px;
+}
+
+#contact :-moz-placeholder {
+	color:#5C5C5C !important;
+	font-weight: 600;
+	letter-spacing:1px;
+}
+
+#contact ::-moz-placeholder {
+	color:#5C5C5C !important;
+	font-weight: 600;
+	letter-spacing:1px;
+}
+
+#contact :-ms-input-placeholder {
+	color:#5C5C5C !important;
+	font-weight: 600;
+	letter-spacing:1px;
+}
+
 
 footer {
 	padding: 17px 0 10px;
@@ -2944,8 +2990,8 @@ footer {
 }
 
 .social-icons ul {
-	margin:0px;
-	padding:0px;
+	margin:0;
+	padding:0;
 }
 
 .social-icons ul li {
@@ -2963,7 +3009,6 @@ footer {
 	display: inline-block;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
