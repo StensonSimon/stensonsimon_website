@@ -2130,31 +2130,19 @@ ul.timeline {
 }
 
 .popup .content {
-	position:absolute;
+	position:fixed;
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%) scale(0);
 	background:#FFF;
 	width:95%;
 	max-width:500px;
-	height:400px;
+	height:420px;
 	z-index:2;
 	text-align:center;
 	padding:20px;
 	box-sizing:border-box;
 	font-family:"Open Sans",sans-serif;
-}
-
-.popup .close-btn {
-	cursor:pointer;
-	position:absolute;
-	right:20px;
-	top:20px;
-	width:30px;
-	height:30px;
-	color:#000;
-	text-align:center;
-
 }
 
 .popup.active .overlay {
