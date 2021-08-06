@@ -1366,7 +1366,6 @@ ul.timeline {
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-	-o-border-radius: 3px;
 	margin: 10px 0;
 	position: relative;
 	z-index: 550;
@@ -1829,7 +1828,7 @@ ul.timeline {
 	border-radius: 50%;
 	display: inline-block;
 	margin: 0 auto;
-	background: #7EC13F none repeat scroll 0% 0%;
+	background: #7EC13F none repeat scroll 0 0;
 }
 
 .services-box .services-desc {
@@ -1837,7 +1836,7 @@ ul.timeline {
 }
 
 .services-box .services-desc h4 {
-	margin: 31px 0px 20px;
+	margin: 31px 0 20px;
 }
 
 
@@ -2153,6 +2152,7 @@ ul.timeline {
 	transition:all 300ms ease-in-out;
 	transform:translate(-50%,-50%) scale(1);
 }
+
 /*-----------------------------------------------------------------*/
 /* end of Popup
 /*-----------------------------------------------------------------*/
@@ -2397,7 +2397,7 @@ ul.timeline {
 .work-detail-list li span {
 	padding-right: 15px;
 	text-transform: uppercase;
-	font-size: 13.3px;
+	font-size: 13px;
 	font-weight: 600;
 	color: #3E3E3E;
 }
@@ -2631,7 +2631,7 @@ li.comment .single_comment.first-comment {
 
 li.comment .single_comment {
 	padding: 20px;
-	background: #FFF none repeat scroll 0% 0%;
+	background: #FFF none repeat scroll 0 0;
 	margin-bottom: 20px;
 	box-shadow:0 0 2px #ccc;
 }
@@ -2707,8 +2707,8 @@ li.comment ol.comment-sub {
 }
 
 .post-categories ul {
-	padding:0px;
-	margin:0px;
+	padding:0;
+	margin:0;
 }
 
 .post-categories li {
@@ -2721,7 +2721,7 @@ li.comment ol.comment-sub {
 
 .post-categories li:last-child {
 	border-bottom:none;
-	margin-bottom:0px;
+	margin-bottom:0;
 }
 
 .post-categories li a:before {
@@ -2735,10 +2735,10 @@ li.comment ol.comment-sub {
 .post-categories a {
 	position: relative;
 	color: #383636;
-	font-size: 13.1px;
+	font-size: 13px;
 	display: inline-block;
 	width: 100%;
-	letter-spacing: 0.9px;
+	letter-spacing: 1px;
 	padding-bottom: 10px;
 	line-height: 20px;
 	transition: all 0.2s ease 0s;
@@ -2799,7 +2799,6 @@ li.comment ol.comment-sub {
 	border: 1px solid #ccc;
 	-webkit-transition: all 0.7s ease-in-out;
 	-moz-transition: all 0.7s ease-in-out;
-	-ms-transition: all 0.7s ease-in-out;
 	-o-transition: all 0.7s ease-in-out;
 	transition: all 0.7s ease-in-out;
 }
@@ -3067,7 +3066,7 @@ footer {
 	 
  .navbar-right {
  float:none !important;
- margin-right:0px !important;
+ margin-right:0 !important;
 }
 
  .clear-toggle {

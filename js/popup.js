@@ -10,11 +10,3 @@ function closePopup() {
     document.body.style.overflow = "auto"; // ADD THIS LINE
     document.body.style.height = "auto"; // ADD THIS LINE
 }
-
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-        document.body.style.overflow = "auto"; // ADD THIS LINE
-        document.body.style.height = "auto";  // ADD THIS LINE
-    }
-}
