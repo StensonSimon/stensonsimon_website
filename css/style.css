@@ -2056,13 +2056,9 @@ ul.timeline {
 /* Testimonial
 /*-----------------------------------------------------------------*/
 
-
-#comments {
-	background:url(../images/parallax/testimonials.jpg) no-repeat;
-}
-
 #comments {
 	color:#fff;
+	background: #0b0b0b;
 	position:relative;
 	padding:100px 0;
 }
@@ -2910,7 +2906,7 @@ li.comment ol.comment-sub {
 	resize: none;
 }
 
-#contact h2 {
+#contact h2, #comments h2 {
 	color: #269abc;
 }
 
