@@ -679,7 +679,6 @@ section {
 
 #header {
 	top: 0;
-	z-index: 500;
 	width: 100%;
 	position: fixed;
 	z-index: 99999;
@@ -1004,28 +1003,6 @@ html[xmlns] .slides {
 
 
 /*-----------------------------------------------------------------*/
-/* About
-/*-----------------------------------------------------------------*/
-
-.features-icon-box {
-	margin-bottom:50px;
-}
-
-.features-icon-box .features-icon {
-	position: absolute;
-	width: 60px;
-	height: 60px;
-	line-height: 41px;
-	font-size: 45px;
-	color:#7EC13F;
-}
-
-.features-icon-box .features-info {
-	margin-left: 80px;
-}
-
-
-/*-----------------------------------------------------------------*/
 /* Fun Facs
 /*-----------------------------------------------------------------*/
 
@@ -1273,7 +1250,6 @@ html[xmlns] .slides {
 	margin-bottom: 20px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.7s ease-in-out;
-	-ms-transition: all 0.7s ease-in-out;
 	-o-transition: all 0.7s ease-in-out;
 	transition: all 0.7s ease-in-out;
 }
@@ -1323,19 +1299,28 @@ html[xmlns] .slides {
 /* History
 /*-----------------------------------------------------------------*/
 
-
-#history {
-	background:url(../images/parallax/timeline.jpg);
+#history .container {
+	height: 600px;
+	overflow: auto;
 }
 
-ul.timeline {
-	margin: 40px auto 0;
-	width: 100%;
-	background: url(../images/timeline-bg.jpg) center center repeat-y;
-	height: auto;
+.timeline {
 	position: relative;
-	padding: 0 0 80px;
-	z-index:200;
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	background-color: #269abc;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -3px;
 }
 
 .timeline .year {
@@ -1348,14 +1333,13 @@ ul.timeline {
 	margin: 31px auto;
 	text-align: center;
 	width: 75px;
-	height:75px;
 	border-radius:50%;
 	line-height:72px;
-	left: -35px;
 	border: 3px solid #919191;
 	position: relative;
 	top: -5px;
 	left: auto;
+	z-index: 100;
 }
 
 .timeline .timeline-item {
@@ -1397,24 +1381,24 @@ ul.timeline {
 	display: block;
 	width: 18px;
 	height: 18px;
-	background: #FFF;
+	background: #269abc;
 	border: 2px solid #FFF;
 	border-radius: 100px;
 	top: 18px;
 	z-index: 20;
 }
 
- .timeline .timeline-item:nth-of-type(2n):before {
-	 border-top: 10px solid rgba(0, 0, 0, 0);
-	 border-bottom: 10px solid rgba(0, 0, 0, 0);
-	 border-left: 10px solid rgba(0, 0, 0, 0);
-	 border-right: 10px solid rgba(0, 0, 0, 0.7);
-	 content: "";
-	 right: 100%;
-	 position: absolute;
-	 -webkit-transition: all 0.5s;
-	 -moz-transition: all 0.5s;
-	 transition: all 0.5s;
+.timeline .timeline-item:nth-of-type(2n):before {
+	border-top: 10px solid rgba(0, 0, 0, 0);
+	border-bottom: 10px solid rgba(0, 0, 0, 0);
+	border-left: 10px solid rgba(0, 0, 0, 0);
+	border-right: 10px solid rgba(0, 0, 0, 0.7);
+	content: "";
+	right: 100%;
+	position: absolute;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .timeline .timeline-item:before {
@@ -1430,39 +1414,19 @@ ul.timeline {
 	transition: all 0.5s;
 }
 
- .timeline .timeline-item:nth-of-type(2n) {
- float: right;
- clear: right;
+.timeline .timeline-item:nth-of-type(2n) {
+	float: right;
+	clear: right;
 }
 
 .timeline .year + .timeline-item {
 	margin-top: -20px;
 }
 
- .timeline .timeline-item:nth-of-type(2n):after {
- left: -6.8%;
+.timeline .timeline-item:nth-of-type(2n):after {
+	left: -6.8%;
 }
 
-.timeline .end-icon:before {
-	clear:both;
-}
-
-.timeline .end-icon {
-	height: 64px;
-	border: 3px solid #919191;
-	border-radius: 300px;
-	background: #FFF;
-	color: #868586;
-	font-size: 24px;
-	bottom: 0;
-	left: 50%;
-	margin-left: -32px;
-	text-align: center;
-	padding: 19px 0;
-	clear: both;
-	position: absolute;
-	width: 64px;
-}
 
 
 
@@ -2906,7 +2870,7 @@ li.comment ol.comment-sub {
 	resize: none;
 }
 
-#contact h2, #comments h2 {
+#contact h2, #comments h2, #history h2 {
 	color: #269abc;
 }
 
