@@ -32,6 +32,11 @@ h1{
 	text-transform: uppercase;
 
 }
+
+h2{
+	color: #269abc;
+}
+
 h4 {
 	font-size: 16px;
 	font-family: "Raleway", sans-serif;
@@ -195,9 +200,6 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	background:#269abc;
 }
 
-.title-box.white h2.title {
-	color:#FFF;
-}
 
 .title-box.text-center h2:before {
 	bottom: 0;
@@ -2670,10 +2672,6 @@ li.comment ol.comment-sub {
 #contact input, #contact textarea{
 	border-color:#269abc!important;
 	resize: none;
-}
-
-#contact h2, #comments h2, #history h2 {
-	color: #269abc;
 }
 
 .contact-form {
