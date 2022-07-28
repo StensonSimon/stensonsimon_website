@@ -1,9 +1,499 @@
-<!DOCTYPE html>
-<html>
-<body>
+<!doctype html>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<html lang="en-gb" class="no-js">
+  <head>
+    <meta charset="utf-8">
+	<title>Stenson Simon</title>
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">		
+		
+	<!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      
 
-</body>
+     <!--styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" href="css/etlinefont.css">
+    <link href="css/style.css" type="text/css"  rel="stylesheet"/>
+
+  </head>
+
+ <body  data-spy="scroll" data-target="#main-menu">
+ 
+
+  <!--Start Page loader -->
+  <div id="pageloader">   
+        <div class="loader">
+          <img src="images/progress.gif" alt='loader' />
+        </div>
+   </div>
+   <!--End Page loader -->
+   
+      
+   <!--Start Navigation-->
+		<header id="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="fa fa-bars"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+                            <div class="clear-toggle"></div>
+							<div id="main-menu" class="collapse scroll navbar-right">
+								<ul class="nav">
+                                
+									<li class="active"> <a href="#home">Home</a> </li>
+
+                                    <li> <a href="#works">My Work</a> </li>
+
+                                    <!--<li> <a href="#blog">Blog</a></li>-->
+
+                                    <li> <a href="#skills">Technical Skills</a> </li>
+
+                                    <li> <a href="#history">History</a> </li>
+
+                                    <li> <a href="#comments">Comments</a> </li>
+
+                                    <li> <a href="#contact">Contact</a> </li>
+										
+								</ul>
+							</div><!-- end main-menu -->
+						</div>
+					</div>
+				</div>
+			</header>
+    <!--End Navigation-->
+
+      
+        <!-- Start Slider  -->
+        <section id="home" class="home">
+             <div class="slider-overlay"></div>
+            <div class="flexslider">
+                <ul class="slides scroll">
+                    <li class="first">
+                        <div class="slider-text-wrapper">  
+                            <div class="container">
+                                <div class="big" style="text-transform: initial" >Hey I'm </div>
+                                <div class="big" >Stenson Simon</div>
+                                <button class="btn" style="background-color: transparent">
+                                <a href="#skills" style="color: #FFFFFF; cursor: pointer;">VIEW PORTFOLIO</a>
+                                </button>
+                            </div>       
+                        </div>
+                    </li>
+                    
+                    <li class="secondary">
+                        <div class="slider-text-wrapper"> 
+                            <div class="container">                       
+                                <div class="big">Welcome to my site </div>
+                                <div class="small">Are you ready to explore</div>
+                                <button class="btn" style="background-color: transparent">
+                                    <a href="#skills" style="color: #FFFFFF; cursor: pointer;">VIEW PORTFOLIO</a>
+                                </button>
+                            </div>
+                         </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+          <!-- End Slider  -->
+  <!--Start portfolio-->
+
+  <section id="works" class="section">
+      <!-- Filtering -->
+      <div class="title-box text-center">
+          <h2 class="title">My Work</h2>
+      </div>
+
+
+      <div class=" col-md-12 text-center">
+          <!-- Filtering -->
+          <ul class="filtering">
+              <li class="filter" data-filter="all">All</li>
+              <li class="filter" data-filter="react">React</li>
+          </ul>
+      </div>
+
+      <div class="work-main">
+          <!-- Work Grid -->
+          <ul class="work-grid">
+              <!-- Work Item -->
+              <li class="work-item thumnail-img mix react">
+                  <div class="work-image">
+                      <img src="images/works/img1.jpg" alt="thumbnail">
+
+                      <!--Hover link-->
+                      <div class="hover-link">
+                          <a href="single-work.html">
+                              <i class="fa fa-link"></i>
+                          </a>
+
+                          <a href="images/works/img1.jpg" class="popup-image">
+                              <i class="fa fa-plus"></i>
+                          </a>
+                      </div>
+                      <!--End link-->
+
+                      <!--Hover Caption-->
+                      <div class="work-caption">
+                          <h4>Project Title</h4>
+                          <p>Photography</p>
+                      </div>
+                      <!--End Caption-->
+
+                  </div> <!-- /.work-image-->
+              </li>
+              <!--End Work Item -->
+          </ul>
+
+      </div>
+  </section>
+  <!--End portfolio-->
+  <!--Start Skills-->
+  <section  id="skills" class="section parallax">
+      <div class="overlay"></div>
+      <div class="container">
+          <div class="title-box text-center white">
+              <h2 class="title">Technical Skills</h2>
+          </div>
+          <div class="row">
+              <!--Skill #1-->
+              <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart" data-percent="80">
+                        <span class="percent"></span>
+                    </span>
+                    <h4>C++</h4>
+                    <p>Programming Language</p>
+              </div>
+
+              <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart" data-percent="85">
+                        <span class="percent"></span>
+                    </span>
+                  <h4>Java</h4>
+                  <p>Programming Language</p>
+              </div>
+
+              <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart" data-percent="87">
+                        <span class="percent"></span>
+                    </span>
+                  <h4>Python</h4>
+                  <p>Programming Language</p>
+              </div>
+
+              <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart" data-percent="70">
+                        <span class="percent"></span>
+                    </span>
+                  <h4>HTML, CSS, JSP</h4>
+                  <p>Programming Language</p>
+              </div>
+
+              <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart" data-percent="60">
+                        <span class="percent"></span>
+                    </span>
+                  <h4>JavaScript</h4>
+                  <p>Programming Language</p>
+              </div>
+
+              <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart" data-percent="70">
+                        <span class="percent"></span>
+                    </span>
+                  <h4>MATLAB</h4>
+                  <p>Programming Language</p>
+              </div>
+
+              <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart" data-percent="90">
+                        <span class="percent"></span>
+                    </span>
+                  <h4>Appium</h4>
+                  <p>A test tool for automating applications on iOS mobile and Android mobile</p>
+              </div>
+
+              <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart" data-percent="90">
+                        <span class="percent"></span>
+                    </span>
+                  <h4>Selenium</h4>
+                  <p>A tool used to test browser based applications</p>
+              </div>
+
+
+              <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart" data-percent="70">
+                        <span class="percent"></span>
+                    </span>
+                  <h4>POSTMAN</h4>
+                  <p>An API client that makes it easy for users to create, share, test and document APIs</p>
+              </div>
+
+              <div class="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
+                    <span class="pie-chart" data-percent="95">
+                        <span class="percent"></span>
+                    </span>
+                  <h4>Jmeter</h4>
+                  <p>A tool used to stress test applications</p>
+              </div>
+
+
+          </div> <!-- /.row-->
+      </div> <!-- /.container-->
+  </section>
+  <!--End Skills-->
+
+  <!--Start History-->
+<section id="history" class="section parallax">
+    <div class="overlay"></div>
+    <div class="title-box text-center white">
+        <h2 class="title">History</h2>
+    </div>
+    <div class="container">
+            <!-- History Timeline -->
+            <ul class="timeline list-unstyled">
+
+
+                <!--History Item -->
+                <li class="timeline-item">
+                    <h4>QA Automation Engineer at Bynaric</h4>
+                    <p>Develop and maintain automated tests for a range of software solutions.
+                        Create and maintain test environments.</p>
+                    <span> 22 MAR 2021</span>
+                </li>
+                <!-- End Item -->
+
+                <li class="year">2021</li>
+
+                <!--History Item -->
+                <li class="timeline-item">
+                    <h4>Process Executive at Infosys</h4>
+                    <p>The responsibility is to design and deliver value to the customer at the desired time, to identify and prospect new sales leads and to match companies skill set to client’s needs and objectives.</p>
+                    <span> 31 DEC 2020</span>
+                </li>
+                <!-- End Item -->
+
+                <li class="year">2020</li>
+
+                <!--History Item -->
+                <li class="timeline-item">
+                    <h4>Masters(M.Eng) in Internet of Things (IoT) in TU Dublin</h4>
+                    <p>Developed the skills needs for sustainable IoT deployment and expansion specifically in research and project management skills that can be directly applied into high-end research, development and innovation to support engineering practice in the predicted future growth in IoT; Knowledge and competences for design, commissioning and maintenance of IoT systems and processes.</p>
+                    <span> 24 SEP 2018</span>
+                </li>
+                <!-- End Item -->
+
+                <!--History Item -->
+                <li class="timeline-item">
+                    <h4>Jr. Software Developer at Florinta Info Solns</h4>
+                    <p>Contributed development team member who has worked in an exciting and collaborative environment using latest tools to develop projects of varying size and shapes.</p>
+                    <span> 03 JAN 2018</span>
+                </li>
+                <!-- End Item -->
+
+                <li class="year">2018</li>
+
+                <!--History Item -->
+                <li class="timeline-item">
+                    <h4>Java Developer Course in Aptech</h4>
+                    <p>Gained knowledge in Java Development</p>
+                    <span> 03 JUL 2017</span>
+                </li>
+                <!-- End Item -->
+
+                <li class="year">2017</li>
+
+                <!--History Item -->
+                <li class="timeline-item">
+                    <h4>B.Tech in Electronics and Communication Engineering.</h4>
+                    <p>Gained knowledge in major areas such as telecommunications, energy and electronics sectors, while developing necessary skills for integration of hardware and software components</p>
+                    <span> 22 JUL 2013</span>
+                </li>
+                <!-- End Item -->
+                <!-- History Year -->
+                <li class="year">2013</li>
+
+            </ul>
+            <!-- End History Timeline -->
+    </div> <!--/.container-->
+</section>
+<!--End History-->
+
+
+
+  <!--Start Comments-->
+  <section id="comments" class="section parallax">
+     <div class="overlay"></div>
+        <div class="container">
+              <div class="row">
+                  <div>
+                      <div style="float: right">
+                          <button class="gradient-button" onclick="togglePopup()">
+                              <span class="fa fa-pencil"></span>
+                              <span>Write a review</span>
+                          </button>
+                      </div>
+                      <div class="popup" id="review-popup">
+                          <div class="overlay"></div>
+                          <div class="content" id="review_form">
+                              <form>
+                                  <h3>Review Form</h3>
+                                  <div class="row">
+                                      <div class="col-md-6">
+                                          <label for="fname"></label>
+                                          <input class="form-control" id="fname" placeholder="Full Name" type="text" required />
+                                      </div>
+                                      <div class="col-md-6">
+                                          <label for="email_id"></label>
+                                          <input class="form-control" id="email_id" placeholder="Your Email" type="email" required>
+                                      </div>
+                                      <div class="col-md-12">
+                                          <label for="review_desc"></label>
+                                          <textarea class="form-control" id="review_desc" rows="7" placeholder="Write your review here..." required></textarea>
+                                      </div>
+                                      <div class="col-md-9 text-right">
+                                          <button type="reset" onclick="closePopup()">Cancel</button>
+                                      </div>
+                                      <div class="col-md-2 text-right">
+                                          <button type="submit">SUBMIT</button>
+                                      </div>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="title-box text-center white col-md-10 col-md-offset-1">
+                      <h2 class="title">What my reviewers say </h2>
+                  </div>
+
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="testimonials-carousel">
+                            <!--Start Testimonial item #1-->
+                            <div class="items">
+                                <div class="desc">habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet habitant morbi tristique senectus et netus et malesuada fames ac quam egestas.</div>
+                                <img src="images/testimonial/testimonial-img1.jpg" class="testimonial-pic" alt="testimonials" />
+                                <div class="name">Andrew Doe</div>
+                            </div>
+                            
+                              <!--Start Testimonial item #2-->
+                            <div class="items">
+                                <div class="desc">habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet habitant morbi tristique senectus et netus et malesuada fames ac quam egestas.</div>
+                                <img src="images/testimonial/testimonial-img2.jpg" class="testimonial-pic" alt="testimonials" />
+                                <div class="name">Andrew Doe</div>
+                            </div>
+                            
+                              <!--Start Testimonial item #3-->
+                            <div class="items">
+                                <div class="desc">habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet habitant morbi tristique senectus et netus et malesuada fames ac quam egestas.</div>
+                                <img src="images/testimonial/testimonial-img1.jpg" class="testimonial-pic" alt="testimonials" />
+                                <div class="name">Andrew Doe</div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--/.row-->
+            </div> <!--/.container-->
+          </section>
+        <!--End Comments-->
+
+   <!--Start Contact-->
+   <section id="contact" class="section parallax">
+      <div class="overlay"></div>
+       <div class="container">
+           <div class="row">
+           
+                 <div class="title-box text-center white">
+                    <h2 class="title">Contact</h2>
+                 </div>
+             </div>
+
+               <!--Start contact form-->
+               <div class="col-md-8 col-md-offset-2 contact-form">
+               
+                    <div class="contact-info text-center">
+                       <p>Ireland </p>
+                       <p>email: stensonsimon@gmail.com </p>
+                    </div>
+                     
+                     <form>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="name"></label>
+                                <input class="form-control" id="name" placeholder="Full Name" type="text" required>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="email"></label>
+                                <input class="form-control" id="email" placeholder="Your Email" type="email" required>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="subject"></label>
+                                <input class="form-control" id="subject" placeholder="Subject" type="text">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="message"></label>
+                                <textarea class="form-control" id="message" rows="7" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="col-md-12 text-right">
+                                <button type="submit"  class="gradient-button">SEND MESSAGE</button>
+                            </div>
+                        </div>
+                    </form>
+               </div>
+              <!--End contact form-->
+              
+       </div> <!-- /.container-->
+   </section>
+   <!--End Contact-->
+   
+   
+   <!--Start Footer-->
+   <footer>
+       <div class="container">
+           <div class="row">
+               <!--start social icons-->
+               <div class="col-md-12 col-sm-6 col-xs-6 text-right">
+                   <div class="social-icons">
+                       <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/stenson-simon"><i class="fa fa-linkedin"></i></a></li>
+                       </ul>
+                    </div>
+               </div>
+               <!--End social icons-->
+           </div> <!-- /.row-->
+       </div> <!-- /.container-->
+   </footer>
+   <!--End Footer-->
+
+   <a href="#" class="scrollup"> <i class="fa fa-chevron-up"> </i> </a>
+
+    <!--Plugins-->
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/jquery.easypiechart.js"></script>
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/popup.js"></script>
+    
+ </body>
 </html>
+
